@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: "Open sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+}
+
+/* Layout */
+html {
+    font-family: "Open sans", sans-serif;
+    background-color: #f5f5f5;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+section {
+    padding-top: 7.5rem;
+    padding-right:  7.5rem;
+    padding-left: 27.5rem;
+    z-index: 10;
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    mix-blend-mode: soft-light;
+}
+
+/* Cirkels */
+.circles div {
+    width: 20rem;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url(assets/noise.jpeg);
+    background-color: dodgerblue;
+}
+
+.circles div img {
+    border-radius: 50%;
+}
+
+.circles div:nth-child(1){
+    width: 8rem;
+    background-color: #351EB6;
+    top: 2rem;
+    left: 66%;
+}
+
+/* Vierkanten */
+header {
+    position: relative;
+}
+
+header div {
+    width: 20rem;
+    aspect-ratio: 1/1;
+    transform: rotate(45deg);
+    background-color: #351EB6;
+    position: absolute;
+}
+
+header div:first-child {
+    top: -10rem;
+    left: -10rem;
+}
+
+header div:last-child {
+    top: -10rem;
+    right: -10rem;
+}
+
+.squares div {
+    width: 20rem;
+    height: auto;
+    aspect-ratio: 1/1;
+    position: absolute;
+    right: 0;
+    background-image: url(assets/noise.jpeg);
+    background-color: crimson;
+}
+
+/* Typografie */
+h1 {
+    max-width: 18rem;
+    font-size: 2.5rem;
+    line-height: 1;
+    position: absolute;
+}
+
+h1::before {
+    content: '';
+    width: 100rem;
+    height: 8px;
+    position: absolute;
+    display: block;
+    left: -101rem;
+    bottom: 0.35rem;
+}
+
+.top-title {
+    color: #4894EC;
+    left: 2px;
+}
+
+.top-title::before {
+    background-color: #4894EC;
+    bottom: 4px;
+}
+
+.scroll-title {
+    color: #F25379;
+    position: fixed;
+}
+
+.scroll-title::before {
+    width: calc(100rem + 2px);
+    background-color: #F25379;
+}
+
+.end-title {
+    color: #02837C;
+}
+
+.end-title::before {
+    background-color: #02837C;
+}
+
+.titles {
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+.titles h1 {
+    mix-blend-mode: multiply;
+}
+
+.sticky-paragraphs {
+    height: calc(100vh * 3);
+}
+
+p {
+    font-family: "Open sans";
+    max-width: 30rem;
+    line-height: 1.5;
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 50px;
+}
+
+.sticky-paragraphs p:nth-child(1) {
+    top: 200px;
+} 
+
+.sticky-paragraphs p:nth-child(2) {
+    top: calc(200px + 3rem);
+    margin-top: 100vh;
+}
+
+.sticky-paragraphs p:nth-child(3) {
+    top: calc(200px + 7.5rem);
+    margin-top: 100vh;
+}
+
+.sticky-paragraphs p::first {
+   top: 200px;
+}
