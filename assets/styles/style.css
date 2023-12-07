@@ -53,6 +53,11 @@ section.all-titles {
     border-radius: 50%;
     position: absolute;
     mix-blend-mode: color-burn;
+    filter: blur(4px);
+    transform: translateY();
+    animation: linear fade-in-on-enter--fade-out-on-exit;
+    animation-timeline: view();
+
 }
 
 .circles div span:nth-child(1) {
@@ -172,19 +177,20 @@ header div:last-child {
     position: absolute;
     right: 0;
     mix-blend-mode: color-burn;
+    filter: blur(12px);
 }
 
 .squares span:nth-child(1){
     background-color: crimson;
     top: 85vh;
-    transform: rotate(45deg);
+    rotate: 45deg;
     right: -10rem;
 }
 
 .squares span:nth-child(2){
     background-color: crimson;
     top: calc(85vh * 2);
-    transform: rotate(45deg);
+    rotate: 45deg;
     left: -10rem;
 }
 
@@ -247,11 +253,11 @@ h1::before {
 
 .end-title {
     top: 125rem;
-    color: #02837C;
+    color: #11828f;
 }
 
 .end-title::before {
-    background-color: #02837C;
+    background-color: #11828f;
     top: 7.8rem;
 }
 
@@ -299,4 +305,41 @@ p {
 
 .sticky-paragraphs p::first {
    top: 25rem;
+}
+
+/* Afbeelding Grumpy cat */
+.grumpy-cat {
+    position: absolute;
+    top: 5rem;
+    mix-blend-mode: multiply;
+    left: 52rem;
+    position: fixed;
+}
+
+@supports(animation-timeline: view()) {
+    @keyframes fade-in-on-enter--fade-out-on-exit {
+        entry 0%  {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        entry 100%  {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        exit 0% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        exit 100% {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+    }
+
+
+
+    .circles div span, .squares span {
+        animation: linear fade-in-on-enter--fade-out-on-exit;
+        animation-timeline: view();
+    }
 }
