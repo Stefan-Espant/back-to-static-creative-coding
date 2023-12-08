@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+:root {
+    /* Eenheden */
+    --unit-full: 100%;  
+    --unit-device-height: 100vh;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 @font-face {
@@ -22,12 +28,12 @@ main {
     background-image: url(/assets/noise.png);
     background-repeat: repeat-y;
     background-size: contain;
-    height: 100vh;
+    height: var(--unit-device-height);
     opacity: 1;
     overflow-x: hidden;
     overflow-y: scroll;
     position: relative;
-    width: 100%;
+    width: var(--unit-full);
 }
 
 section.all-titles {
@@ -40,9 +46,9 @@ section.all-titles {
 
 /* Cirkels */
 .circles div {
-    height: 100vh;
+    height: var(--unit-device-height);
     position: relative;
-    width: 100%;
+    width: var(--unit-full);
 }
 
 .circles div span {
@@ -273,7 +279,7 @@ h1::before {
 }
 
 .sticky-paragraphs {
-    height: calc(100vh * 3);
+    height: calc(var(--unit-device-height) * 3);
 }
 
 p {
@@ -293,16 +299,16 @@ p {
 } 
 
 .sticky-paragraphs p:nth-child(2) {
-    margin-top: 100vh;
+    margin-top: var(--unit-device-height);
     top: calc(27.5rem + 4.5rem);
 }
 
 .sticky-paragraphs p:nth-child(3) {
-    margin-top: 100vh;
+    margin-top: var(--unit-device-height);
     top: calc(27.5rem + 11.5rem);
 }
 
-.sticky-paragraphs p::first {
+.sticky-paragraphs p:first {
    top: 25rem;
 }
 
