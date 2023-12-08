@@ -252,7 +252,7 @@ h1::before {
 }
 
 .end-title {
-    top: 125rem;
+    top: 103rem;
     color: #11828f;
 }
 
@@ -338,7 +338,7 @@ p {
 
 
 
-    .circles div span, .squares span {
+    .circles div span {
         animation: linear fade-in-on-enter--fade-out-on-exit;
         animation-timeline: view();
     }
