@@ -1,5 +1,5 @@
 
-# Back to Static - Creative Coding
+# Back to Static - Creative Coding Spike
 
 Ontwerp en maak creatieve oplossingen voor de interface.
 
@@ -35,10 +35,6 @@ Elke week ontwerp en maak je een creatieve oplossing, welke je op vrijdag gaat t
 
 ### Materiaal
 
-Micro interacties ontwerpen en maken
-- [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
-- Tutorial  [if you only know one thing about JavaScript, this is what I would recommend](https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/)
-
 Creative coding Inspiratie
 - [7 secrets for enhancing UX with micro-interactions](https://www.webdesignerdepot.com/2015/07/7-secrets-for-enhancing-ux-with-micro-interactions/)
 - [Site of the day - Awwwards](https://www.awwwards.com/websites/)
@@ -46,12 +42,8 @@ Creative coding Inspiratie
 
 ## Criteria
 
-Focus sprint 17 - De focus van deze sprint ligt op het generen van statische web pagina's. 
-
-Deze deeltaak hoort bij het gedragscriterium:  
-Lerend vermogen: De student maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de squad en leert van anderen.
-
 Deze opdracht is done als je (in totaal 3x):
+
 - [ ] Je hebt een creative-coding experiment ontworpen en gemaakt
 - [ ] Je hebt in de wiki van de leertaak je proces gedocumenteerd
 - [ ] Je hebt in de Readme van de leertaak de experimenten gepresenteerd
