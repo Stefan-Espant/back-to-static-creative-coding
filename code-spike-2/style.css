@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+button {
+    border: unset;
+    cursor: pointer; 
+}
+
+/* Typografie */
+@font-face {
+    font-family: 'Road rage';
+    src: url(assets/fonts/Road_Rage.otf);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #f6f6f6;
+    font-family: 'Road rage', system-ui, -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 span {
+    position: absolute;
+    font-size: 4rem;
+    rotate: -8deg;
+    left: -4rem;
+    top: 2rem;
+}
+
+/* Layout */
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+article:first-child {
+    width: 100%;
+    height: fit-content;
+    top: 2vh;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article:first-child div {
+    position: relative;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    left: 4rem;
+}
+
+article:last-child {
+    width: clamp(20rem, 100%, 30rem);
+    aspect-ratio: 1/1;
+    background: #f6f6f6;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    box-shadow: 20px 20px 0 0 #1d1d1d9e;
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+}
+
+.subscribe::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    display: block;
+    aspect-ratio: 1/1;
+    background: url('assets/metallic.jpg');
+    mix-blend-mode: hard-light;
+    background-size: contain;
+    top:0rem;
+    left: 0rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    z-index: 1;
+}
+
+form label {
+    font-family: 'Road rage';
+    font-size: 3rem;
+    color: #333;
+}
+
+form input {
+    height: 2rem;
+    border: unset;
+    background: none;
+    border-bottom: 5px dotted #333;
+    margin-bottom: 2rem;
+}
+
+form button {
+    background: url('assets/paint-stroke.png');
+    font-family: 'Road rage';
+    font-size: 3rem;
+    width: 100%;
+}
+
+/* Vlammen */
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
