@@ -94,7 +94,7 @@ form {
 form label {
     font-family: 'Road rage';
     font-size: 3rem;
-    color: #333;
+    color: #020044;;
 }
 
 form input {
@@ -110,6 +110,13 @@ form button {
     font-family: 'Road rage';
     font-size: 3rem;
     width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-blend-mode: color;
+    background-size: 24rem;
+    background-position: center;
+    color: #fff;
 }
 
 /* Vlammen */
