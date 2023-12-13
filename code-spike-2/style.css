@@ -6,7 +6,6 @@
 body {
     background-size: cover;
     position: relative;
-    position: relative;
 }
 
 button {
@@ -111,6 +110,7 @@ form input {
     border-bottom: 5px dotted #333;
     margin-bottom: 2rem;
     transition: 0.1s ease-in-out;
+    font-family: "crimson pro", sans-serif;
 }
 
 form input:focus {
@@ -136,12 +136,24 @@ form button:is(:hover, :focus) {
     color: rgb(231, 103, 11);
 }
 
+/* Background text */
+.background-text {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0rem;
+    display: block;
+    mix-blend-mode: lighten;
+    opacity: 0.5;
+}
+
 /* Vlammen */
 canvas {
     display: block;
     position: absolute;
     top: 0;
-    z-index: 0;
+    mix-blend-mode: screen;
+    z-index: -1;
 }
 
 @media (min-width: 60rem) {
