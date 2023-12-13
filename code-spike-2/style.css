@@ -4,12 +4,18 @@
 }
 
 body {
+    background-size: cover;
+    position: relative;
     position: relative;
 }
 
 button {
     border: unset;
     cursor: pointer; 
+}
+
+input:focus-visible {
+    outline: unset;
 }
 
 /* Typografie */
@@ -48,6 +54,7 @@ article:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 
 article:first-child div {
@@ -94,7 +101,7 @@ form {
 form label {
     font-family: 'Road rage';
     font-size: 3rem;
-    color: #020044;;
+    color: #333;
 }
 
 form input {
@@ -103,6 +110,11 @@ form input {
     background: none;
     border-bottom: 5px dotted #333;
     margin-bottom: 2rem;
+    transition: 0.1s ease-in-out;
+}
+
+form input:focus {
+    border-bottom-color: rgb(130, 30, 30);
 }
 
 form button {
@@ -117,6 +129,11 @@ form button {
     background-size: 24rem;
     background-position: center;
     color: #fff;
+    transition: 0.1s ease-in-out;
+}
+
+form button:is(:hover, :focus) {
+    color: rgb(231, 103, 11);
 }
 
 /* Vlammen */
@@ -125,4 +142,17 @@ canvas {
     position: absolute;
     top: 0;
     z-index: 0;
+}
+
+@media (min-width: 60rem) {
+    section {
+        height: 100vh;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    article:first-child {
+        width: 50%;
+    }
 }
