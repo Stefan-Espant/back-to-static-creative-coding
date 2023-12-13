@@ -15,6 +15,11 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 [Bekijk de tweede creative code spike](https://stefan-espant.github.io/back-to-static-creative-coding/code-spike-2/)
 
+## Bronnen
+
+[wat is riso](https://het-lab.be/wat-is-riso-en-hoe-kun-je-zelf-risoprints-makentutorial/)
+[ThreeJS flame](https://codepen.io/janeRivas/pen/xxRoOxa)
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
