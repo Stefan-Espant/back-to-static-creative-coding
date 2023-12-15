@@ -18,13 +18,14 @@
                 </article>
 
                 <article class="subscribe">
-                    <form action="/" method="post">
+                    <form action="https://api.web3forms.com/submit" method="post">
                         <label>naam</label>
+                        <input type="hidden" name="access_key" value="8735d1d4-b64e-4bc6-a042-4f1e1a8c1ce5">
                         <input type="text" inputmode="name" />
 
                         <label>e-mail</label>
                         <input type="text" inputmode="email" />
-
+                        <div class="h-captcha" data-captcha="true"></div>
                         <button type="submit">verzenden</button>
                         
                     </form>
@@ -39,7 +40,6 @@
             <!-- Benodigden scripten -->
             <script type="module" src="main.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
         </body>
     </html>
 
