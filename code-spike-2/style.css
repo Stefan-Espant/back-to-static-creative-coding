@@ -7,6 +7,7 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    background-image: url(assets/metallic.jpg);
 }
 
 button {
@@ -144,8 +145,8 @@ form button:is(:hover, :focus) {
     z-index: 1;
     top: 0rem;
     display: block;
-    mix-blend-mode: lighten;
-    opacity: 0.5;
+    mix-blend-mode: color-burn;
+    opacity: 0.3;
 }
 
 /* Vlammen */
