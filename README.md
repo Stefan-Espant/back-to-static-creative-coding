@@ -17,8 +17,8 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 ## Bronnen
 
-[wat is riso](https://het-lab.be/wat-is-riso-en-hoe-kun-je-zelf-risoprints-makentutorial/)
-[ThreeJS flame](https://codepen.io/janeRivas/pen/xxRoOxa)
+* [wat is riso](https://het-lab.be/wat-is-riso-en-hoe-kun-je-zelf-risoprints-makentutorial/)
+* [ThreeJS flame](https://codepen.io/janeRivas/pen/xxRoOxa)
 
 ## Licentie
 
