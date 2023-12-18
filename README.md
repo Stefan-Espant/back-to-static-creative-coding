@@ -13,8 +13,11 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 <img width="1461" alt="Scherm­afbeelding 2023-12-15 om 10 21 17" src="https://github.com/Stefan-Espant/back-to-static-creative-coding/assets/89298385/506ea221-97c3-413b-a63b-0e221178aab2">
 
-
 [Bekijk de tweede creative code spike](https://stefan-espant.github.io/back-to-static-creative-coding/code-spike-2/)
+
+# Spike 3. Marvelous retro line art expanse
+
+<img width="1464" alt="Scherm­afbeelding 2023-12-18 om 14 39 09" src="https://github.com/Stefan-Espant/back-to-static-creative-coding/assets/89298385/6580a652-fd01-4d93-9ca7-c31e33a95dab">
 
 ## Bronnen
 
