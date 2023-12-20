@@ -1,0 +1,14 @@
+{
+  "name": "back-to-static-creative-coding",
+  "version": "1.0.0",
+  "description": "> _Fork_ deze deeltaak en ga aan de slag.  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan van der Kort",
+  "license": "ISC"
+}
